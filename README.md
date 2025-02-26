@@ -8,11 +8,11 @@ Our mission is simple: **Every pet deserves a safe and loving home**. Through ou
 
 **Assignment Category:** assignment_category_009 (Pet Adoption Platform)
 
-**GitHub Client Link:**[https://github.com/medhabicorp/b10a12-pet-client]
+**GitHub Client Link:**[https://github.com/medhabicorp/powtopia-client-test-2]
 
 **GitHub Server Link:** [https://github.com/medhabicorp/b10a12-pet-server]
 
-**Live Link:** [https://]
+**Live Link:** [(https://b10a12-pet-server.vercel.app)]
 
 ## 📚 Project Overview
 
@@ -145,7 +145,7 @@ npm install
 Create a `.env` file in the root directory and add:
 
 ```sh
-REACT_APP_API_URL=http://localhost:5000
+REACT_APP_API_URL=https://b10a12-pet-server.vercel.app
 REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
 ```
 

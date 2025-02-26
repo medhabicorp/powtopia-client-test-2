@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const FeaturedPets = () => {
   const [pets, setpets] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/pets")
+    fetch("https://b10a12-pet-server.vercel.app/pets")
       .then((res) => res.json())
       .then((data) => {
         setpets(data.slice(0, 8));
