@@ -6,6 +6,10 @@ Our mission is simple: **Every pet deserves a safe and loving home**. Through ou
 
 # Links & Info
 
+**Admin Login**
+Email: admin@admin.com
+Password: Md2008
+
 **Assignment Category:** assignment_category_009 (Pet Adoption Platform)
 
 **GitHub Client Link:**[https://github.com/medhabicorp/powtopia-client-test-2]
