@@ -96,7 +96,7 @@ const DashBoard = () => {
         <Button className="bg-base-100" onClick={() => setOpen(true)}>
           <RiMenu2Fill className="text-2xl text-secondary" />
         </Button>
-        <Link to="/" className="mb-2">
+        <Link className="mb-2">
           <Typography variant="h5" color="blue-gray">
             {user?.displayName}
           </Typography>

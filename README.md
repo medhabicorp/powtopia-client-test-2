@@ -12,7 +12,7 @@ Our mission is simple: **Every pet deserves a safe and loving home**. Through ou
 
 **GitHub Server Link:** [https://github.com/medhabicorp/b10a12-pet-server]
 
-**Live Link:** [(https://b10a12-pet-server.vercel.app)]
+**Live Link:** [(https://b10-a12-pet.web.app/)]
 
 ## 📚 Project Overview
 
