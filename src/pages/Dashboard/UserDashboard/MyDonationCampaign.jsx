@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import UseAuth from "../../../hooks/UseAuth";
-// import { useQuery } from '@tanstack/react-query';
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import {
   flexRender,
@@ -86,7 +85,7 @@ const MyDonationCampaign = () => {
     },
   });
 
-  const handlePushDonation = async (record) => {
+  const handlePauseDonation = async (record) => {
     const newStatus = !record.isDonationStopped; // Toggle the status (true <=> false)
     const response = await axiosSecure.patch(
       `/donationCampaigns/stop/${record._id}`,
@@ -106,14 +105,14 @@ const MyDonationCampaign = () => {
     }
   };
 
-  // Run handlePushDonation automatically when condition is met
+  // Run handlePauseDonation automatically when condition is met
   useEffect(() => {
     data.forEach((record) => {
       if (
         record.donatedAmount >= record.maxDonation &&
         !record.isDonationStopped
       ) {
-        handlePushDonation(record);
+        handlePauseDonation(record);
       }
     });
   }, [data]); // This effect runs whenever data changes
@@ -208,13 +207,13 @@ const MyDonationCampaign = () => {
                               ? "bg-red-600 hover:bg-red-700"
                               : "bg-green-600 hover:bg-green-700"
                           }`}
-                          onClick={() => handlePushDonation(row.original)}
+                          onClick={() => handlePauseDonation(row.original)}
                         >
                           {row.original.donatedAmount >=
                             row.original.maxDonation ||
                           row.original.isDonationStopped
                             ? "Stop"
-                            : "Push"}
+                            : "Pause"}
                         </Button>
                       </div>
                     </td>

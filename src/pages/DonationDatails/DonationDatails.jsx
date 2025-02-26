@@ -27,7 +27,7 @@ const DonationDatails = () => {
 
   const fetchAllPet = async () => {
     const { data } = await axios.get(
-      `https://b10a12-pet-server.vercel.app/donationCampaigns/${id}`
+      `http://localhost:5000/donationCampaigns/${id}`
     );
     setDonation(data);
   };

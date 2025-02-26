@@ -145,7 +145,7 @@ npm install
 Create a `.env` file in the root directory and add:
 
 ```sh
-REACT_APP_API_URL=https://b10a12-pet-server.vercel.app
+REACT_APP_API_URL=http://localhost:5000
 REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
 ```
 

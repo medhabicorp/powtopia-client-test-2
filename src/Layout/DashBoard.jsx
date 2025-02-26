@@ -96,11 +96,11 @@ const DashBoard = () => {
         <Button className="bg-base-100" onClick={() => setOpen(true)}>
           <RiMenu2Fill className="text-2xl text-secondary" />
         </Button>
-        <Link className="mb-2">
-          <Typography variant="h5" color="blue-gray">
+        <h1 className="bg-red-900 text-center mb-2 px-4 rounded-md">
+          <Typography variant="h5" color="white">
             {user?.displayName}
           </Typography>
-        </Link>
+        </h1>
       </div>
 
       {/* Mobile Drawer Menu */}
@@ -110,7 +110,11 @@ const DashBoard = () => {
         className="p-4 bg-primary text-white"
       >
         <div className="mb-4 flex items-center justify-between">
-          <Typography variant="h5" color="blue-gray" className="text-white">
+          <Typography
+            variant="h5"
+            color="blue-gray"
+            className="text-white bg-red-900 text-center px-4 rounded-md"
+          >
             {user?.displayName}
           </Typography>
           <IconButton
@@ -144,7 +148,9 @@ const DashBoard = () => {
       <div className="grid grid-cols-1 md:grid-cols-[300px,1fr]">
         {/* Sidebar */}
         <div className="hidden md:flex flex-col bg-primary text-white h-screen sticky top-0 px-6 py-5">
-          <Link className="text-2xl font-bold mb-2">{user?.displayName}</Link>
+          <h1 className="text-2xl font-bold mb-2 bg-red-900 text-center">
+            {user?.displayName}
+          </h1>
           <ul className="space-y-4 text-base">
             {isAdmin && <>{renderLinks(adminLinks)}</>}
             {renderLinks(userLinks)}

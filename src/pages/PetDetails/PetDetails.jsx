@@ -31,9 +31,7 @@ const PetDetails = () => {
   }, []);
 
   const fetchPetDetails = async () => {
-    const { data } = await axios.get(
-      `https://b10a12-pet-server.vercel.app/pets/${id}`
-    );
+    const { data } = await axios.get(`http://localhost:5000/pets/${id}`);
     setPet(data);
   };
 
@@ -57,7 +55,7 @@ const PetDetails = () => {
     };
 
     await axios
-      .post("https://b10a12-pet-server.vercel.app/adoptions", adoptionData)
+      .post("http://localhost:5000/adoptions", adoptionData)
       .then((res) => {
         if (res.data.insertedId) {
           enqueueSnackbar(
