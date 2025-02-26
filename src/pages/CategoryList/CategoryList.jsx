@@ -11,7 +11,7 @@ const CategoryList = () => {
     queryKey: ["pets", name],
     queryFn: async () => {
       const res = await axios.get(
-        `http://localhost:5000/pets/category/${name}`
+        `https://b10a12-pet-server.vercel.app/pets/category/${name}`
       );
       return res.data;
     },

@@ -17,7 +17,7 @@ const PetListing = () => {
     queryKey: ["pets", filter, search],
     queryFn: async () => {
       const res = await axios.get(
-        `http://localhost:5000/pets?filter=${filter}&search=${search}&adopted=false `
+        `https://b10a12-pet-server.vercel.app/pets?filter=${filter}&search=${search}&adopted=false `
       );
       return res.data;
     },

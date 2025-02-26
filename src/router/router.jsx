@@ -118,7 +118,7 @@ const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/pets/${params.id}`),
+          fetch(`https://b10a12-pet-server.vercel.app/pets/${params.id}`),
       },
       {
         path: "createDonation",
@@ -144,7 +144,9 @@ const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/donationCampaigns/${params.id}`),
+          fetch(
+            `https://b10a12-pet-server.vercel.app/donationCampaigns/${params.id}`
+          ),
       },
       {
         path: "adoptionRequests",
