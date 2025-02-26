@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Lily Thompson",
+    "rating": 4.8,
+    "comment": "Bringing home my cat was a dream come true. The platform made the adoption process easy and stress-free.",
+    "photo": "https://i.ibb.co/gZb27td/360-F-364211147-1qg-LVxv1-Tcq0-Ohz3-Faw-Ufrt-ONzz8nq3e.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Daniel Perez",
+    "rating": 4.9,
+    "comment": "I found my loyal companion here! The team guided me every step of the way. Highly recommended.",
+    "photo": "https://i.ibb.co/QNWNPrF/profile-picture-maker-before.webp"
+  },
+  {
+    "id": 3,
+    "name": "Mia Chen",
+    "rating": 4.7,
+    "comment": "As a first-time pet owner, the support was incredible. My puppy has filled my days with love and laughter.",
+    "photo": "https://i.ibb.co/qgFX59M/profile.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jacob Walker",
+    "rating": 4.6,
+    "comment": "Adopting my parrot was a smooth experience. The staff was supportive and answered all my questions.",
+    "photo": "https://i.ibb.co/xLYcQdH/user.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Grace Robinson",
+    "rating": 4.9,
+    "comment": "I adopted a rescue dog, and it changed my life. This platform truly cares about pets and their new families.",
+    "photo": "https://i.ibb.co/t8G7F5T/man-taking-selfie.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Noah Scott",
+    "rating": 4.8,
+    "comment": "My cat is the best decision I ever made. The team was helpful and made the adoption easy and joyful.",
+    "photo": "https://i.ibb.co/jVmzRBr/image.png"
+  },
+  {
+    "id": 7,
+    "name": "Ava Gonzalez",
+    "rating": 4.7,
+    "comment": "Our family found the perfect dog through this site. We couldn’t be happier. Highly recommend it!",
+    "photo": "https://i.ibb.co/vkx23ZN/image.png"
+  },
+  {
+    "id": 8,
+    "name": "Lucas Bennett",
+    "rating": 4.9,
+    "comment": "Adopting my rabbit was a delightful experience. I’m grateful for the platform's support and dedication.",
+    "photo": "https://i.ibb.co/Ln9VhY1/images-1.jpg"
+  }
+]

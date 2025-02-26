@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.navlinks .active {
+    color: black;
+    background-color: white;
+    display: block; 
+    width: 100%;    
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.navlink  .active {
+    color:#0E7A81;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  /* ::-webkit-scrollbar-track {
+    background: #0E7A81; 
+  } */
+   
+  ::-webkit-scrollbar-thumb {
+    background: #0E7A81; 
+    border: 5px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+  }
+/* .custom-clip {
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 100%, 0 100%);
+  } */
+
+  /* .custom-clip {
+    clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0 100%);
+  } */
